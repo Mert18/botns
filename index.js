@@ -38,13 +38,16 @@ client.on('message', async (message) => {
 
     }
     else if (message.content === `$ns`) {
-        const x = Math.trunc(Math.random() * 3000);
-        message.channel.send(`Enes bugün ${x} kez ağladı.`)
+        const z = Math.trunc(Math.random() * 3000);
+        message.channel.send(`Enes bugün ${z} kez ağladı.`)
     }
     else if (message.content === `$valorant şahan`) {
+        const z = Math.trunc(Math.random() * 1430);
+        const b = Math.trunc(Math.random() * 630);
+
         message.channel.send("Bugün Şahan'ın valorant hasar verileri şöyle: \n")
-        message.channel.send(`Killjoy'un tareti: 434 \n`);
-        message.channel.send(`Şahan : 124`);
+        message.channel.send(`Killjoy'un tareti: ${z} \n`);
+        message.channel.send(`Şahan : ${b}`);
     }
     else if (message.content === `$valorant enes`) {
         const x = Math.trunc(Math.random() * 3000);
